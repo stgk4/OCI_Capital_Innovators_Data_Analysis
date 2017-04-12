@@ -34,6 +34,6 @@ def csv_reader(file_obj):
 
 #------------------------------------
 if __name__ == "__main__":
-	csv_path = "CI_Spring16.csv"
+	csv_path = "cap_innov_data_sp16.csv"
 	with open(csv_path, "r", encoding="utf8") as f_obj:
 		csv_reader(f_obj)
